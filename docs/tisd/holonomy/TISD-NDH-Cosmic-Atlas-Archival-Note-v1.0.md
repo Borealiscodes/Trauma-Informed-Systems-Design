@@ -3,7 +3,7 @@
 
 ---
 
-## **1. Purpose of This Archival Note**
+## **1. Purpose of This Archival Note** 
 
 This document formally records the archival of the **NDH‑Cosmic‑Atlas** repository.  
 Cosmic Atlas was created during early NDH expressive‑manifold exploration as a conceptual and aesthetic scaffold. It served as a playful, ethos‑driven visualization space rather than a structural subsystem.
