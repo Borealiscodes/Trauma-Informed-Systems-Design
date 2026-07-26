@@ -1,26 +1,19 @@
-# ✅ **NDH–ZenAI Reference Architecture Draft (v1.0)**  
-*(Paste directly into the file)*
-
-```markdown
 # NDH–ZenAI Reference Architecture Draft  
 ### Version 1.0  
 ### Trauma-Informed Governance for Enterprise Agentic Platforms
 
 ## Purpose
 
-This Reference Architecture Draft defines how **NDH/TISD trauma-informed governance**
-and **Zühlke’s ZenAI enterprise agentic platform** can be combined into a unified,
-scalable, secure, and dignity-preserving AI ecosystem.
+This Reference Architecture Draft defines how **NDH/TISD trauma-informed governance** and **Zühlke’s ZenAI enterprise agentic platform** can be combined into a unified, scalable, secure, and dignity-preserving AI ecosystem.
 
 It builds directly on the four existing artifacts:
 
-1. **NDH–ZenAI Crossmap Analysis (v1.0)**  
-2. **NDH–ZenAI Emergent Case Study (v1.0)**  
-3. **NDH–ZenAI Pilot Proposal (v1.0)**  
-4. **NDH–ZenAI Invariants Mapping (v1.0)**  
+1. NDH–ZenAI Crossmap Analysis (v1.0)  
+2. NDH–ZenAI Emergent Case Study (v1.0)  
+3. NDH–ZenAI Pilot Proposal (v1.0)  
+4. NDH–ZenAI Invariants Mapping (v1.0)  
 
-This draft is the architectural synthesis that prepares the ground for pilots,
-reference implementations, and collaborative exploration.
+This draft is the architectural synthesis that prepares the ground for pilots, reference implementations, and collaborative exploration.
 
 ---
 
@@ -28,28 +21,32 @@ reference implementations, and collaborative exploration.
 
 The NDH–ZenAI architecture is composed of three layers:
 
-```
-+--------------------------------------------------------------+
-|                    NDH / TISD Governance Layer              |
-|  (Dignity Invariants, Trauma-Safe Boundaries, Holonomy,      |
-|   Predictability, Single-Channel Communication, GBS)         |
-+-------------------------------+------------------------------+
-                                |
-                                | NDH–ZenAI Invariants Mapping
-                                v
-+-------------------------------+------------------------------+
-|             GBS Transformation Map                           |
-|  (Manifold → Tensor → Vector → Scalar → Envelope → Holonomy  |
-|   → Output)                                                   |
-+-------------------------------+------------------------------+
-                                |
-                                | GBS → ZenAI Structural Mapping
-                                v
-+--------------------------------------------------------------+
-|                   ZenAI Enterprise Platform                  |
-|  (Agentic Workflows, Agents, Data Pools, Privacy Classes,    |
-|   Role-Based Access, Providers, Integrations, Secure Hosting)|
-+--------------------------------------------------------------+
+```text
++==========================================================================+
+|                     NDH / TISD GOVERNANCE LAYER                          |
+|  (Dignity Invariants • Predictability • Single-Channel • Holonomy •      |
+|   Trauma-Safe Boundaries • Non-Linear Development • Zen AI Design)       |
++==============================+===========================================+
+                               |
+                               |  NDH → ZenAI Invariants Mapping
+                               v
++==============================+===========================================+
+|                     GBS TRANSFORMATION MAP                               |
+|  Manifold → Tensor → Vector → Scalar → Envelope → Holonomy → Output      |
++==============================+===========================================+
+                               |
+                               |  GBS → ZenAI Structural Alignment
+                               v
++==========================================================================+
+|                     ZENAI ENTERPRISE PLATFORM                            |
+|  Agents • Agentic Workflows • Data Pools • Privacy Classes • RBAC •      |
+|  Secure Hosting • Provider-Agnostic Models • Integrations • API Layer    |
++==========================================================================+
+
+Legend:
+- NDH/TISD governs human experience and trauma-informed invariants.
+- GBS provides mathematical stability and structural translation.
+- ZenAI implements secure, scalable agentic workflows under NDH constraints.
 ```
 
 This architecture ensures:
@@ -64,12 +61,12 @@ This architecture ensures:
 
 NDH/TISD provides the constitutional rules for trauma-informed AI:
 
-- **Dignity as invariant**  
-- **Predictability as accessibility**  
-- **Single-channel communication**  
-- **Holonomy flattening**  
-- **Trauma-safe boundaries**  
-- **Non-linear development posture**
+- Dignity as invariant  
+- Predictability as accessibility  
+- Single-channel communication  
+- Holonomy flattening  
+- Trauma-safe boundaries  
+- Non-linear development posture  
 
 These invariants constrain how ZenAI workflows must behave.
 
@@ -79,13 +76,13 @@ These invariants constrain how ZenAI workflows must behave.
 
 GBS provides the mathematical backbone:
 
-- **Manifold**: all possible workflow paths  
-- **Tensor**: multi-dimensional state representation  
-- **Vector**: actual case trajectory  
-- **Scalar**: misalignment metrics  
-- **Envelope**: stability bounds  
-- **Holonomy**: loop detection  
-- **Output**: canonical case resolution
+- **Manifold** — all possible workflow paths  
+- **Tensor** — multi-dimensional state representation  
+- **Vector** — actual case trajectory  
+- **Scalar** — misalignment metrics  
+- **Envelope** — stability bounds  
+- **Holonomy** — loop detection  
+- **Output** — canonical case resolution  
 
 GBS ensures NDH invariants remain stable when implemented inside ZenAI.
 
@@ -113,11 +110,11 @@ ZenAI ensures scalability, compliance, and operational reliability.
 
 ## 5.1 Intake Workflow Example
 
-```
+```text
 User → Intake Agent → Canonical Narrative → NDH Constraints → ZenAI Workflow → Output
 ```
 
-### NDH Constraints Applied:
+### NDH Constraints Applied
 
 - Story captured once  
 - Predictable steps  
@@ -125,7 +122,7 @@ User → Intake Agent → Canonical Narrative → NDH Constraints → ZenAI Work
 - Holonomy loop prevention  
 - Trauma-safe boundaries  
 
-### ZenAI Capabilities Used:
+### ZenAI Capabilities Used
 
 - Agentic workflow builder  
 - Data pools  
@@ -173,17 +170,14 @@ Measure cognitive load, predictability, and compliance.
 
 # 8. Suggested Next Artifacts
 
-- **Pilot Workflow Specification**  
-- **Domain-Specific Architecture**  
-- **White Paper Abstract**  
+- Pilot Workflow Specification  
+- Domain-Specific Architecture  
+- White Paper Abstract  
 
 ---
 
 # 9. Closing Note
 
 This Reference Architecture Draft establishes the structural foundation for NDH-governed ZenAI deployments. It is intentionally modular, allowing partners to explore, extend, or decline further collaboration without commitment.
-
 ```
-
----
 
