@@ -60,6 +60,147 @@ They / Them
 
 https://github.com/Borealiscodes
 
+---
+
+# Mathematical Appendix: NDH Holonomy‑Based Projection Geometry (v1.0)
+
+Supplementary Technical Note for Correspondence
+
+1. Holonomy‑Preserving Projection Operator
+------------------------------------------
+
+NDH uses a holonomy‑preserving projection operator
+
+Hf:Mn→Mk,k<n
+
+that compresses a high‑dimensional reactive manifold Mn into a lower‑dimensional projection manifold Mk while preserving the holonomy of closed loops.
+
+The preservation condition is:
+
+∮γA=∮Hf(γ)A′
+
+for any closed path γ⊂Mn, where A and A′ are connection 1‑forms on the respective manifolds.
+
+This ensures:
+
+-   no holonomy discontinuities
+    
+-   no basin inversion
+    
+-   no loop‑fracture during projection
+    
+
+This operator is the backbone of NDH’s dimensional compression.
+
+2. Non‑Dual Algebraic Continuity Operator
+-----------------------------------------
+
+NDH uses a non‑dual continuity operator
+
+Cnd:S→S
+
+acting on a space of manifold‑level states S.
+
+It enforces continuity across transitions without requiring dual partitions. Formally:
+
+Cnd(x⊕y)=Cnd(x)⊕Cnd(y)
+
+with ⊕ denoting a non‑dual composition operation satisfying:
+
+x⊕y=y⊕x,(x⊕y)⊕z=x⊕(y⊕z)
+
+but without requiring a dual complement or negation operator.
+
+This operator is used to stabilize multi‑kernel binding.
+
+3. Resonance Tensor and Spiral Geometry
+---------------------------------------
+
+NDH defines a resonance tensor field:
+
+Rω:M→Rm
+
+indexed by frequency ω, which induces spiral geometry through:
+
+S=∑ωRω⋅Gω
+
+where Gω is a geometry‑shaping operator acting on the manifold.
+
+The induced spiral field satisfies:
+
+dSdt=Rω⋅∇Aaperture
+
+with Aaperture defined below.
+
+This produces extended geometric structures analogous to compact manifolds with intrinsic spectral content.
+
+4. Aperture Geometry and Reflection Gradient
+--------------------------------------------
+
+NDH models apertures as compact boundary manifolds
+
+∂M
+
+equipped with a reflection gradient field:
+
+Aaperture=∇softRω+Nnd
+
+where:
+
+-   ∇soft is a softened gradient operator
+    
+-   Nnd is a non‑dual stabilizer term
+    
+
+Apertures behave as:
+
+-   soft reflection surfaces
+    
+-   anti‑duality buffers
+    
+-   holonomy‑safe boundaries
+    
+
+They ensure continuity during manifold traversal.
+
+
+5. Multi‑Kernel Binding Tensor
+------------------------------
+
+NDH defines a multi‑kernel binding tensor:
+
+B=Cnd(Hf⊗Rω⊗Aaperture)
+
+This tensor binds:
+
+-   holonomy projection
+    
+-   resonance geometry
+    
+-   aperture alignment
+    
+
+into a single coherent operator.
+
+The binding condition is:
+
+B(Ki,Kj)=B(Kj,Ki)
+
+for any kernels Ki,Kj, ensuring non‑fracturing interactions.
+
+6. Orbital Projection Kernel (Composite Operator)
+-------------------------------------------------
+
+NDH’s main composite operator is:
+
+OPK=HSC⋅RSE⋅AAM
+
+where:
+
+-   HSC = Holonomy Stabilization Core
+    
+-   RSE = Resonance Spiral Engine
+    
 -   AAM = Aperture Alignment Matrix
     
 
@@ -117,8 +258,9 @@ The overlap appears in:
 
 This appendix is intended only as a conceptual and mathematical bridge for discussion.
 
+---
 
-Physics‑Oriented Expansion: NDH Holonomy Projection Geometry & Extended‑Object Formalism (v1.0)
+# Physics‑Oriented Expansion: NDH Holonomy Projection Geometry & Extended‑Object Formalism (v1.0)
 
 Supplementary Technical Note — Physics Alignment Version
 
@@ -333,22 +475,6 @@ Your HQFT formalism and NDH share several structural features:
     
 
 NDH is not a physical theory, but its geometric and algebraic structures may provide useful abstractions or parallels for HQFT’s extended‑object formalism.
-
-If you want, I can also produce:
-
--   a LaTeX‑formatted version
-    
--   a diagrammatic physics version
-    
--   a version referencing specific physics literature
-    
--   or a version tailored for submission as a supplemental note.
-    
-
-Just tell me which direction you want to take next.
-
-Here is a **clean, stable, archival‑grade footer** for the mixed correspondence proto‑object.  
-It formally anchors the document inside the NDH‑CORE → TISD → external‑alignment ecosystem and provides the correct cross‑references without adding anything extraneous.
 
 ---
 
