@@ -1,71 +1,83 @@
-# ZenAI (Zühlke) — NDH Integration Cluster  
-### Conceptual + Strategic Documents  
-### Version 1.0
+# **ZenAI (Zühlke) Integration Cluster**  
+### NDH/TISD × ZenAI Enterprise Agentic Platform  
+### Version 1.1 — Consolidated
 
-This directory contains all NDH/TISD/Zen AI Design documents that relate directly to
-Zühlke’s **ZenAI** enterprise agentic platform. These artifacts form a coherent
-conceptual cluster focused on crossmapping, emergent case studies, and potential
-collaboration pathways.
+## Purpose
 
-They are intentionally separated from the core NDH/TISD architecture to preserve
-clarity, maintain provenance, and allow this integration thread to grow independently
-if external partners choose to engage.
+This directory contains the full set of artifacts describing the conceptual and architectural alignment between NDH/TISD trauma‑informed governance, the GBS transformation map, and Zühlke’s ZenAI enterprise agentic platform.  
+The materials provide a structured foundation for evaluating potential collaboration, exploring trauma‑informed agentic workflows, and assessing architectural compatibility.
 
 ---
 
-## 📚 Contents
+## 📚 **Artifact Set**
 
 ### **1. NDH–ZenAI Crossmap Analysis (v1.0)**  
 `NDH-ZenAI-Crossmap-Analysis-v1.0.md`  
-Deep structural, philosophical, and systemic mapping between NDH/TISD/Zen AI Design
-and Zühlke’s ZenAI platform.
+Systemic and philosophical mapping between NDH/TISD and ZenAI.
 
-### **2. NDH–ZenAI Emergent Case Study & Conceptual Direction (v1.0)**  
+### **2. NDH–ZenAI Emergent Case Study (v1.0)**  
 `NDH-ZenAI-Crossmap-EmergentCaseStudy-v1.0.md`  
-Actionable conceptual direction, emergent workflow case study, and collaboration
-opportunities.
+Exploration of emergent alignment and conceptual collaboration pathways.
 
 ### **3. NDH–ZenAI Pilot Proposal (v1.0)**  
 `NDH-ZenAI-PilotProposal-v1.0.md`  
-A lightweight, non-binding pilot proposal outlining possible pathways for joint
-evaluation and exploration.
+Non‑binding proposal outlining potential pilot directions.
+
+### **4. NDH–ZenAI Invariants Mapping (v1.0)**  
+`NDH-ZenAI-InvariantsMapping-v1.0.md`  
+Formal mapping between NDH trauma‑informed invariants and ZenAI platform capabilities.
+
+### **5. NDH–ZenAI Reference Architecture Draft (v1.0)**  
+`NDH-ZenAI-ReferenceArchitectureDraft-v1.0.md`  
+Three‑layer architecture connecting NDH governance, GBS structure, and ZenAI execution.
+
+### **6. NDH–ZenAI Pilot Workflow Specification (v1.0)**  
+`NDH-ZenAI-PilotWorkflowSpecification-v1.0.md`  
+Operational workflow design demonstrating trauma‑informed intake and canonical narrative formation on ZenAI.
 
 ---
 
-## 🌱 Purpose of This Directory
+## 🧭 **Scope and Boundary**
 
-This folder serves as a **dedicated integration space** for:
+The artifact set defines:
 
-- crossmapping NDH/TISD governance with ZenAI’s enterprise architecture  
-- exploring trauma-informed AI workflows inside secure agentic platforms  
-- documenting emergent insights and collaboration opportunities  
-- providing partners with a clear, self-contained entry point  
+- NDH trauma‑informed invariants  
+- GBS structural translation  
+- ZenAI architectural alignment  
+- A complete pilot workflow specification  
 
-It allows external collaborators to review the conceptual groundwork and decide
-whether they wish to grow the relationship into pilots, reference architectures,
-training tracks, or publications.
-
----
-
-## 🔮 Future Growth
-
-If collaboration proceeds, this directory may expand to include:
-
-- NDH ↔ ZenAI invariants mapping  
-- joint reference architecture  
-- domain-specific workflow redesigns  
-- training modules  
-- white paper drafts  
-- implementation notes  
-
-If collaboration does not proceed, this directory remains a clean, well-structured
-record of conceptual exploration.
+The materials form a stable evaluation package suitable for architectural review, partner assessment, and exploratory discussion.  
+The scope is intentionally bounded to avoid implying implementation commitment.
 
 ---
 
-## 🧭 Provenance Note
+## 🌱 **Potential Future Extensions**
 
-All artifacts in this directory are part of the broader NDH ecosystem’s non-linear
-development. Their presence here reflects emergent alignment rather than fixed
-commitment.
+If deeper collaboration is pursued, natural extensions include:
+
+- **Domain-Specific Architecture**  
+- **White Paper Abstract**  
+- **Pilot Evaluation Report**  
+
+These extensions are not included in the current set.
+
+---
+
+## 🧩 **Design Principles**
+
+- Trauma‑informed governance  
+- Predictable and stable workflow design  
+- Holonomy flattening  
+- Clear boundaries and privacy classes  
+- Non‑linear development posture  
+- Architectural clarity and separation of concerns  
+
+---
+
+## 🔒 **Provenance**
+
+All materials represent exploratory architectural work.  
+They are designed for review and discussion and do not constitute a deployment plan or commercial offer.
+
+---
 
