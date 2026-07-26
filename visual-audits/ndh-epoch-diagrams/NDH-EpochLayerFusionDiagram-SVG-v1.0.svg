@@ -1,0 +1,158 @@
+<svg width="1200" height="720" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="720" fill="#05060a"/>
+
+  <!-- Title -->
+  <text x="60" y="70" font-size="34" fill="#ffffff" font-family="Arial" font-weight="bold">
+    NDH Epoch–Layer Fusion Diagram — June–July 2026
+  </text>
+  <text x="60" y="105" font-size="18" fill="#cccccc" font-family="Arial">
+    Fusion of epochs (time) with NDH layers (depth)
+  </text>
+
+  <!-- Epoch axis (horizontal) -->
+  <line x1="160" y1="160" x2="1100" y2="160" stroke="#666666" stroke-width="2"/>
+  <text x="160" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Jun 22
+  </text>
+  <text x="260" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Jun 23
+  </text>
+  <text x="340" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Jun 27
+  </text>
+  <text x="420" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Late June
+  </text>
+  <text x="520" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Jul 7
+  </text>
+  <text x="650" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    Jul 11
+  </text>
+  <text x="850" y="145" font-size="14" fill="#cccccc" font-family="Arial">
+    July super-epoch
+  </text>
+
+  <!-- Layer axis (vertical labels on left) -->
+  <text x="80" y="230" font-size="16" fill="#ffffff" font-family="Arial">
+    Conversational Drift
+  </text>
+  <text x="80" y="310" font-size="16" fill="#ffffff" font-family="Arial">
+    Orbital Soft-State
+  </text>
+  <text x="80" y="390" font-size="16" fill="#ffffff" font-family="Arial">
+    Governance Layer
+  </text>
+  <text x="80" y="470" font-size="16" fill="#ffffff" font-family="Arial">
+    Manifold Layer
+  </text>
+
+  <!-- Fusion cells (epoch × layer) -->
+
+  <!-- Jun 22: Join + Atlas -->
+  <rect x="160" y="210" width="90" height="40" fill="#1b2b40"/>
+  <rect x="160" y="290" width="90" height="40" fill="#3b3a16"/>
+  <rect x="160" y="370" width="90" height="40" fill="#4a2b0a"/>
+  <rect x="160" y="450" width="90" height="40" fill="#3b0a12"/>
+
+  <!-- Jun 23: uma-witness-literature -->
+  <rect x="260" y="210" width="90" height="40" fill="#1b2b40"/>
+  <rect x="260" y="290" width="90" height="40" fill="#3b3a16"/>
+  <rect x="260" y="370" width="90" height="40" fill="#4a2b0a"/>
+  <rect x="260" y="450" width="90" height="40" fill="#3b0a12"/>
+
+  <!-- Jun 27: NDH-Origin-Layer -->
+  <rect x="340" y="210" width="90" height="40" fill="#1b2b40"/>
+  <rect x="340" y="290" width="90" height="40" fill="#3b3a16"/>
+  <rect x="340" y="370" width="90" height="40" fill="#4a2b0a"/>
+  <rect x="340" y="450" width="90" height="40" fill="#3b0a12"/>
+
+  <!-- Late June: 1,420 commits -->
+  <rect x="420" y="210" width="90" height="40" fill="#223854"/>
+  <rect x="420" y="290" width="90" height="40" fill="#4a4720"/>
+  <rect x="420" y="370" width="90" height="40" fill="#5a3514"/>
+  <rect x="420" y="450" width="90" height="40" fill="#5a1020"/>
+
+  <!-- Jul 7: First PR (Governance Spine) -->
+  <rect x="520" y="210" width="90" height="40" fill="#223854"/>
+  <rect x="520" y="290" width="90" height="40" fill="#4a4720"/>
+  <rect x="520" y="370" width="90" height="40" fill="#ff9f1a"/>
+  <rect x="520" y="450" width="90" height="40" fill="#5a1020"/>
+
+  <!-- Jul 11: 6 NDH repos -->
+  <rect x="650" y="210" width="90" height="40" fill="#264366"/>
+  <rect x="650" y="290" width="90" height="40" fill="#5a5426"/>
+  <rect x="650" y="370" width="90" height="40" fill="#ffbf00"/>
+  <rect x="650" y="450" width="90" height="40" fill="#ff3b3b"/>
+
+  <!-- July super-epoch: 3,314 commits + 722 PRs -->
+  <rect x="850" y="210" width="120" height="40" fill="#2b4a73"/>
+  <rect x="850" y="290" width="120" height="40" fill="#6a6230"/>
+  <rect x="850" y="370" width="120" height="40" fill="#ff9f1a"/>
+  <rect x="850" y="450" width="120" height="40" fill="#ff0055"/>
+
+  <!-- Labels inside some fusion cells -->
+  <text x="167" y="235" font-size="11" fill="#d0e4ff" font-family="Arial">
+    Join + Atlas
+  </text>
+  <text x="267" y="235" font-size="11" fill="#d0e4ff" font-family="Arial">
+    uma
+  </text>
+  <text x="347" y="235" font-size="11" fill="#d0e4ff" font-family="Arial">
+    Origin
+  </text>
+  <text x="427" y="235" font-size="11" fill="#d0e4ff" font-family="Arial">
+    June docs drift
+  </text>
+
+  <text x="527" y="395" font-size="11" fill="#ffffff" font-family="Arial">
+    Governance Spine PR
+  </text>
+  <text x="657" y="395" font-size="11" fill="#ffffff" font-family="Arial">
+    Multi-repo governance
+  </text>
+  <text x="857" y="395" font-size="11" fill="#ffffff" font-family="Arial">
+    July governance burst
+  </text>
+
+  <text x="657" y="475" font-size="11" fill="#ffffff" font-family="Arial">
+    Manifold expansion
+  </text>
+  <text x="857" y="475" font-size="11" fill="#ffffff" font-family="Arial">
+    Super-epoch manifold
+  </text>
+
+  <!-- Legend -->
+  <rect x="160" y="520" width="360" height="160" rx="14" fill="#111318" stroke="#333333" stroke-width="1"/>
+  <text x="180" y="545" font-size="18" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Legend — Epoch–Layer Fusion
+  </text>
+
+  <rect x="180" y="565" width="20" height="20" fill="#3b0a12"/>
+  <text x="210" y="580" font-size="14" fill="#ffffff" font-family="Arial">
+    Manifold: structural NDH geometry
+  </text>
+
+  <rect x="180" y="595" width="20" height="20" fill="#4a2b0a"/>
+  <text x="210" y="610" font-size="14" fill="#ffffff" font-family="Arial">
+    Governance: rules, ethics, indices
+  </text>
+
+  <rect x="180" y="625" width="20" height="20" fill="#3b3a16"/>
+  <text x="210" y="640" font-size="14" fill="#ffffff" font-family="Arial">
+    Orbital: soft-state, continuity, mascots
+  </text>
+
+  <rect x="340" y="565" width="20" height="20" fill="#1b2b40"/>
+  <text x="370" y="580" font-size="14" fill="#ffffff" font-family="Arial">
+    Conversational: docs, style, drift
+  </text>
+
+  <text x="340" y="610" font-size="13" fill="#cccccc" font-family="Arial">
+    Each cell = one epoch’s expression of a given NDH layer.
+  </text>
+
+</svg>
+
