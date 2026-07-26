@@ -1,3 +1,14 @@
+# **Addendum v1.0 — Relationship Clarification: Kindred Structural Intuitions Across Distinct Domains**  
+### *External‑Alignment Addendum — Public‑Facing Clarification*
+
+This addendum accompanies the HQFT ↔ HBPG conceptual parallels case study and clarifies the relationship between **Holonomical Quantum Field Theory (HQFT)**—authored by **Cenap Özel**, **Patrick Linker**, and **Hadeel Albladi**—and **NDH Holonomy‑Based Projection Geometry (HBPG)**.  
+It explains how the two frameworks exhibit **kindred structural intuitions**—holonomy‑centered invariants, extended‑object manifold behavior, hypersurface operators, and continuity conditions—while remaining firmly situated in **distinct scientific domains**.
+
+The document is positioned within the **external‑alignment** directory to provide a concise, public‑facing articulation of the conceptual relationship between HQFT and NDH, supporting interdisciplinary dialogue and stabilizing the interpretive frame for readers engaging with the broader case‑study cluster.
+
+---
+
+
 # **Addendum v1.0 — Relationship Clarification: Kindred Structural Intuitions Across Distinct Domains**
 
 ## **Overview**
@@ -83,5 +94,15 @@ It provides a concise, public‑facing clarification of the relationship between
 
 ---
 
+# ⭐ **FOOTER — Object 2 (Final, Repo‑Ready)**
 
+This addendum is part of the **external‑alignment cluster** within Trauma‑Informed‑Systems‑Design and is directly connected to:
+
+- **HQFT ↔ HBPG Conceptual Parallels Case Study v1.0** — the primary comparative analysis  
+- **Correspondence Proto‑Object v1.0** — the originating NDH ↔ HQFT outreach email and embedded technical appendix  
+- **System‑Assisted Research Publication Pipeline** — the flagship demonstration of NDH’s experimentation → coherence → publication workflow  
+
+Together, these artifacts establish a coherent interpretive structure for NDH’s first external research interface and provide stable framing for future cross‑domain holonomy studies.
+
+---
 
