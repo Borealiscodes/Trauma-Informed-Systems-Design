@@ -1,0 +1,102 @@
+<svg width="1200" height="720" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="720" fill="#05060a"/>
+
+  <!-- Title -->
+  <text x="60" y="70" font-size="34" fill="#ffffff" font-family="Arial" font-weight="bold">
+    NDH Layer Color Bands — June–July 2026
+  </text>
+
+  <!-- Subheading -->
+  <text x="60" y="105" font-size="18" fill="#cccccc" font-family="Arial">
+    Manifold • Governance • Orbital Soft-State • Conversational Drift
+  </text>
+
+  <!-- Manifold Layer Band -->
+  <rect x="80" y="150" width="1040" height="90" rx="14" fill="url(#manifoldGradient)"/>
+  <text x="100" y="190" font-size="24" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Manifold Layer
+  </text>
+  <text x="100" y="215" font-size="16" fill="#ffffff" font-family="Arial">
+    NDH-Origin-Layer • NDH-Simulation-Suite • Atlas-Architecture • NDH-Math-Spine
+  </text>
+
+  <!-- Governance Layer Band -->
+  <rect x="80" y="270" width="1040" height="90" rx="14" fill="url(#governanceGradient)"/>
+  <text x="100" y="310" font-size="24" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Governance Layer
+  </text>
+  <text x="100" y="335" font-size="16" fill="#ffffff" font-family="Arial">
+    NDH-Governance-Spine • PR bursts • constitutional archives • policy indices
+  </text>
+
+  <!-- Orbital Soft-State Layer Band -->
+  <rect x="80" y="390" width="1040" height="90" rx="14" fill="url(#orbitalGradient)"/>
+  <text x="100" y="430" font-size="24" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Orbital Soft-State
+  </text>
+  <text x="100" y="455" font-size="16" fill="#ffffff" font-family="Arial">
+    Continuity fields • mascots • tone stabilization • surreal comfort structures
+  </text>
+
+  <!-- Conversational Drift Layer Band -->
+  <rect x="80" y="510" width="1040" height="90" rx="14" fill="url(#conversationalGradient)"/>
+  <text x="100" y="550" font-size="24" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Conversational Drift
+  </text>
+  <text x="100" y="575" font-size="16" fill="#ffffff" font-family="Arial">
+    Documentation evolution • micro-commits • README drift • stylistic refinement
+  </text>
+
+  <!-- Legend -->
+  <rect x="80" y="620" width="420" height="70" rx="12" fill="#111318" stroke="#333333" stroke-width="1"/>
+  <text x="100" y="645" font-size="18" fill="#ffffff" font-family="Arial" font-weight="bold">
+    Legend — NDH Layer Colors
+  </text>
+  <circle cx="110" cy="670" r="6" fill="#ff3b3b"/>
+  <text x="130" y="675" font-size="14" fill="#ffffff" font-family="Arial">
+    Manifold (structural, tensor, geometry)
+  </text>
+  <circle cx="310" cy="670" r="6" fill="#ff9f1a"/>
+  <text x="330" y="675" font-size="14" fill="#ffffff" font-family="Arial">
+    Governance (rules, ethics, indices)
+  </text>
+  <circle cx="510" cy="670" r="6" fill="#ffd94a"/>
+  <text x="530" y="675" font-size="14" fill="#ffffff" font-family="Arial">
+    Orbital (soft-state, continuity, mascots)
+  </text>
+  <circle cx="710" cy="670" r="6" fill="#4a90e2"/>
+  <text x="730" y="675" font-size="14" fill="#ffffff" font-family="Arial">
+    Conversational (docs, style, drift)
+  </text>
+
+  <!-- Gradients -->
+  <defs>
+    <!-- Manifold: deep red to orange -->
+    <linearGradient id="manifoldGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff1f3b"/>
+      <stop offset="100%" stop-color="#ff7f00"/>
+    </linearGradient>
+
+    <!-- Governance: orange to gold -->
+    <linearGradient id="governanceGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff9f1a"/>
+      <stop offset="100%" stop-color="#ffbf00"/>
+    </linearGradient>
+
+    <!-- Orbital: gold to pale yellow -->
+    <linearGradient id="orbitalGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffbf00"/>
+      <stop offset="100%" stop-color="#ffe97a"/>
+    </linearGradient>
+
+    <!-- Conversational: yellow to blue -->
+    <linearGradient id="conversationalGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffe97a"/>
+      <stop offset="100%" stop-color="#4a90e2"/>
+    </linearGradient>
+  </defs>
+
+</svg>
+
