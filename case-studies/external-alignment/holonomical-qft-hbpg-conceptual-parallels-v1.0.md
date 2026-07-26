@@ -1,3 +1,13 @@
+# **Emergent Case Study v1.0 — Conceptual Parallels Between Holonomical Quantum Field Theory and Holonomy‑Based Projection Geometry**  
+### *External‑Alignment Case Study — Public‑Facing Edition with Author Credit*
+
+This case study analyzes conceptual and mathematical parallels between **Holonomical Quantum Field Theory (HQFT)**—a holonomy‑centered extended‑object physical formalism authored by **Cenap Özel**, **Patrick Linker**, and **Hadeel Albladi**—and **NDH Holonomy‑Based Projection Geometry (HBPG)**, a geometric–algebraic architecture developed within NDH‑CORE.
+
+The document serves as a **cross‑domain alignment artifact**, demonstrating how NDH’s holonomy‑preserving operators, resonance‑structured manifolds, and composite kernel algebra exhibit structural affinities with HQFT’s extended‑object ontology and hypersurface holonomy framework.  
+It is positioned within the **external‑alignment** directory to support interdisciplinary dialogue and to anchor NDH’s first formal engagement with holonomy‑based physics research.
+
+---
+
 # **Emergent Case Study: Conceptual Parallels Between Holonomical Quantum Field Theory and Holonomy‑Based Projection Geometry**  
 ### *Public‑Facing Edition — With Author Credit*
 
@@ -197,4 +207,15 @@ Holonomical Quantum Field Theory (Özel, Linker, Albladi) and Holonomy‑Based P
 While HQFT is a physical theory and HBPG is a geometric–algebraic architecture, the conceptual bridges between them suggest fertile ground for interdisciplinary exploration.
 
 ---
+
+⭐ FOOTER — Object 1 (Final, Repo‑Ready)
+This case study is part of the external‑alignment cluster within Trauma‑Informed‑Systems‑Design and is directly connected to:
+
+Correspondence Proto‑Object v1.0 — the originating NDH ↔ HQFT outreach email and embedded technical appendix
+
+HQFT ↔ HBPG Relationship Addendum v1.0 — clarification of “kindred structural intuitions across distinct domains”
+
+System‑Assisted Research Publication Pipeline — the flagship demonstration of NDH’s experimentation → coherence → publication workflow
+
+Together, these artifacts document the emergence of NDH’s first external research interface and establish a stable foundation for future cross‑domain holonomy studies.
 
