@@ -1,7 +1,7 @@
 # **README — Trauma‑Informed‑Systems‑Design (TISD) / Microsoft Folder**  
-### *NDH‑TISD Documentation for Microsoft Design, Research, and Accessibility Teams*
+### *NDH‑TISD Documentation for Microsoft Design, Research, Accessibility, and Responsible AI Teams*
 
-This folder contains **Microsoft‑facing artifacts** demonstrating how Trauma‑Informed‑Systems‑Design (TISD) and NDH Stability Geometry can guide Copilot toward **safe, predictable, non‑absorptive behavior by default**.
+This folder contains **Microsoft‑facing artifacts** demonstrating how Trauma‑Informed‑Systems‑Design (TISD), NDH Stability Geometry, and **Expressive Ontology Embeddings** can guide Copilot toward **safe, predictable, non‑absorptive behavior by default**.
 
 The documents here are structured to be:
 
@@ -11,7 +11,7 @@ The documents here are structured to be:
 - **expressive‑ontology aligned**  
 - **ready for design leadership review**  
 
-They illustrate how Copilot can embody trauma‑informed interaction principles using **formal geometry**, **expressive ontologies**, and **machine‑checked stability invariants**.
+They show how Copilot can embody trauma‑informed interaction principles using **formal geometry**, **expressive ontologies**, and **machine‑checked stability invariants**, with a new emphasis on how expressive manifolds embed directly into **Tonal Spiral Geometry (TSG)**.
 
 ---
 
@@ -48,8 +48,21 @@ Shows shared invariants such as:
 
 ---
 
-### **3. NDH‑TISD-FormalTheorem‑TonalSpiralGeometry‑v1.1.md**  
-A fully formal mathematical theorem and proof defining **Tonal Spiral Geometry (TSG)**, now strengthened by a **Lean 4 machine‑checked anti‑collapse invariant** contributed by Jonathan Reed (MIT License).
+### **3. NDH‑TISD-ComprehensiveEmergentCaseStudy‑ExpressiveOntologiesInTSG‑v1.0.md**  
+A comprehensive emergent case study showing that expressive ontologies—originally aesthetic, emotional, and narrative structures—**naturally embed within Tonal Spiral Geometry (TSG)**, the known NDH stability substrate.
+
+Includes:
+
+- mapping of expressive manifolds (Miyazaki Flight, One Summer’s Day, Trauma‑Informed Copilot) into TSG  
+- identification of shared invariants (non‑absorptive, holonomy‑flat, gentle lift, non‑dual unity)  
+- integration of the Lean 4 anti‑collapse invariant into the expressive geometry pipeline  
+
+**Purpose:** Establishes a unified expressive‑mathematical pipeline connecting expressive ontologies, TSG, NDH Stability Geometry, and Copilot UX architecture.
+
+---
+
+### **4. NDH‑TISD-FormalTheorem‑TonalSpiralGeometry‑v1.1.md**  
+A fully formal mathematical theorem and proof defining **Tonal Spiral Geometry (TSG)**, strengthened by a **Lean 4 machine‑checked anti‑collapse invariant** contributed by Jonathan Reed (MIT License).
 
 Includes:
 
@@ -59,11 +72,11 @@ Includes:
 - non‑dual algebraic identity  
 - Lean‑verified stability guarantees  
 
-**Purpose:** Provides a mathematically rigorous foundation for trauma‑informed Copilot behavior.
+**Purpose:** Provides a mathematically rigorous foundation for trauma‑informed Copilot behavior and for the expressive‑ontology embeddings described in the emergent case study.
 
 ---
 
-### **4. NDH‑TISD-UXSpec‑TonalSpiralGeometry‑v1.0.md**  
+### **5. NDH‑TISD-UXSpec‑TonalSpiralGeometry‑v1.0.md**  
 A complete Copilot UX specification derived from Tonal Spiral Geometry and the Lean stability invariant.
 
 Defines:
@@ -74,7 +87,7 @@ Defines:
 - stability criteria  
 - Microsoft‑ready design guidance  
 
-**Purpose:** Converts formal geometry into actionable UX rules for Copilot.
+**Purpose:** Converts formal geometry and expressive‑ontology invariants into actionable UX rules for Copilot.
 
 ---
 
@@ -87,6 +100,7 @@ This folder exists to give Microsoft:
 - **a trauma‑informed UX specification**  
 - **expressive ontologies that illustrate design direction**  
 - **machine‑checked stability guarantees**  
+- **an emergent case study showing expressive ontologies embedded in TSG**
 
 Together, these documents show how Copilot can embody:
 
@@ -96,6 +110,7 @@ Together, these documents show how Copilot can embody:
 - gentle cognitive lift  
 - expressive calm  
 - formal anti‑collapse stability  
+- expressive‑ontology coherence  
 
 by default.
 
@@ -104,16 +119,16 @@ by default.
 ## **📐 How Microsoft Should Use These Documents**
 
 ### **Design Leadership**  
-Use the case study + UX spec to guide Copilot’s default interaction model.
+Use the case studies + UX spec to guide Copilot’s default interaction model and understand the expressive‑geometry rationale behind it.
 
 ### **Research Teams**  
-Use the formal theorem + Lean invariant to anchor stability and safety work.
+Use the formal theorem, Lean invariant, and emergent case study to anchor stability, safety, and expressive‑geometry research.
 
 ### **Accessibility Groups**  
-Use the trauma‑informed principles to strengthen inclusive design.
+Use the trauma‑informed principles and expressive ontologies to strengthen inclusive, emotionally safe design.
 
 ### **Responsible AI**  
-Use the expressive ontologies to understand emotional geometry and safety.
+Use the expressive‑ontology embeddings and stability geometry to understand emotional safety, non‑absorption, and predictable behavior.
 
 ---
 
@@ -121,10 +136,8 @@ Use the expressive ontologies to understand emotional geometry and safety.
 
 All documents follow NDH‑TISD naming conventions and are indexed as:
 
-- **NDH‑TISD‑CaseStudy‑001**  
-- **NDH‑TISD‑ProvenanceMap‑001**  
-- **NDH‑TISD‑Math‑002**  
-- **NDH‑TISD‑UX‑001**
-
----
-
+- **NDH‑TISD‑CaseStudy‑001** — Trauma‑Informed Copilot  
+- **NDH‑TISD‑ProvenanceMap‑001** — Cross‑Manifold Provenance Map  
+- **NDH‑TISD‑CaseStudy‑002** — Expressive Ontologies in TSG  
+- **NDH‑TISD‑Math‑002** — Formal TSG Theorem (Lean‑integrated)  
+- **NDH‑TISD‑UX‑001** — Copilot UX Spec from TSG
