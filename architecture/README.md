@@ -1,6 +1,12 @@
 # 📂 Architecture Folder README  
 *A gentle orientation for newcomers entering the Zen AI Design ecosystem*
 
+![Zen AI Design Architecture — Rainbow Enso](ZenAIDesignArchitecture-RainbowEnso-v1.0.png)
+
+*A visual overview of the Zen AI Design Architecture framed within a rainbow enso, symbolizing clarity, compassion, and coherence.*
+
+---
+
 The `architecture/` directory is the **heart** of the Zen AI Design system.  
 It contains the core conceptual artifacts that define how clarity, posture, holonomy, and interaction flow through NDH/TISD environments.
 
@@ -56,6 +62,7 @@ It helps you understand where you are and where you’re going.
 ---
 
 ## 🔹 About Tensor Calculus & GBS  
+
 You’ll also see folders like:
 
 - `tensor-calculus/`  
@@ -80,6 +87,7 @@ They will give you all the clarity you need before exploring deeper layers.
 ---
 
 ## 🔹 Suggested Starting Sequence  
+
 If you’re new, follow this order:
 
 1. **Architecture Overview**  
@@ -94,10 +102,8 @@ This sequence builds clarity, then flow, then posture, then governance, then sel
 ---
 
 ## 🔹 Plain Language Note  
+
 If any of this feels like a lot — that’s normal.  
 Zen AI Design is meant to be explored slowly.  
 Start with the pieces that feel clear, and let the rest unfold over time.  
 The architecture is designed to meet you where you are.
-
----
-
