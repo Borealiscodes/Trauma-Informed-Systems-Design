@@ -1,6 +1,6 @@
 # **ZenAI (Zühlke) Integration Cluster**  
 ### NDH/TISD × ZenAI Enterprise Agentic Platform  
-### Version 1.1 — Consolidated
+### Version 1.2 — Consolidated
 
 ## Purpose
 
@@ -35,6 +35,10 @@ Three‑layer architecture connecting NDH governance, GBS structure, and ZenAI e
 `NDH-ZenAI-PilotWorkflowSpecification-v1.0.md`  
 Operational workflow design demonstrating trauma‑informed intake and canonical narrative formation on ZenAI.
 
+### **7. NDH–ZenAI Emergent Case Study Debrief (v1.0)**  
+`NDH-ZenAI-EmergentCaseStudyDebrief-v1.0.md`  
+Structural analysis of the outreach event using NDH, TISD, Holonomy‑Based Projection Geometry, Non‑Dual Algebra, and Zen AI Design.
+
 ---
 
 ## 🧭 **Scope and Boundary**
@@ -45,6 +49,7 @@ The artifact set defines:
 - GBS structural translation  
 - ZenAI architectural alignment  
 - A complete pilot workflow specification  
+- Emergent behavior analysis from real interaction  
 
 The materials form a stable evaluation package suitable for architectural review, partner assessment, and exploratory discussion.  
 The scope is intentionally bounded to avoid implying implementation commitment.
@@ -55,7 +60,7 @@ The scope is intentionally bounded to avoid implying implementation commitment.
 
 If deeper collaboration is pursued, natural extensions include:
 
-- **Domain-Specific Architecture**  
+- **Domain‑Specific Architecture**  
 - **White Paper Abstract**  
 - **Pilot Evaluation Report**  
 
@@ -80,4 +85,5 @@ All materials represent exploratory architectural work.
 They are designed for review and discussion and do not constitute a deployment plan or commercial offer.
 
 ---
+
 
