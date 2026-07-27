@@ -1,3 +1,32 @@
+# AXIS HEADER  
+## Axis Identity  
+This document defines a foundational axis within the NDH/TIDS 80D architecture.  
+It establishes the structural identity, scope, and invariants of the axis and  
+serves as a stable foundation for manifold formation and spine construction.
+
+## Axis Scope  
+This axis captures raw data related to ADA Title II access structures,  
+accommodation pathways, grievance procedures, and statutory access obligations.  
+Scope is limited to extracted, non‑interpretive, non‑strategic information.
+
+## Axis Constraints  
+- No narrative content  
+- No strategy content  
+- No recommendations  
+- No analysis  
+- No cross‑axis binding  
+- No manifold formation  
+- No roadmap elements  
+- Raw‑data purity must be preserved
+
+## Axis Invariants  
+- Axis identity must remain stable  
+- Raw‑data content must remain unaltered except for correction  
+- Provenance must be recorded in the footer  
+- Axis must be compatible with NDH/TIDS manifold binding  
+- Axis must support future spine construction without drift
+
+
 ## 1. What the Delaware Courts ADA framework actually says
 
 From the **ADA Public Notice** and related forms, we can extract the core structural commitments.   [Delaware Courts](https://courts.delaware.gov/aoc/ada.aspx)  [Delaware Courts](https://courts.delaware.gov/forms/download.aspx?id=115068)  
@@ -133,3 +162,35 @@ When you’re ready, we can:
 `docs/venue/Chancery-ADAAccommodation-Manifold-RawData.md`
 
 and link the three anchors inside it.
+
+---
+
+# PROVENANCE FOOTER  
+## Source Lineage  
+This axis contains raw data extracted from publicly available ADA Title II  
+statutory materials, administrative accommodation procedures, and judicial  
+access policies. All content is preserved in non‑narrative form and reflects  
+original structural information without interpretation or analysis.
+
+## Extraction Context  
+Raw data was collected to establish a stable foundation within the NDH/TIDS 80D  
+architecture. Extraction was limited to statutory access structures,  
+accommodation pathways, and administrative procedures.
+
+## Raw‑Data Purity  
+- No narrative elements were introduced  
+- No strategic framing was added  
+- No interpretive content was included  
+- No manifold binding was performed  
+- No cross‑axis synthesis was applied
+
+## Foundation Status  
+This axis is designated as a foundation‑grade artifact.  
+It is eligible for manifold formation and spine construction.  
+Its identity, scope, constraints, and invariants must remain stable.
+
+## Update Protocol  
+Any future updates must preserve raw‑data purity and maintain axis invariants.  
+Corrections may be applied only to factual inaccuracies or structural omissions.  
+Cross‑axis binding may occur only at the spine level.
+
