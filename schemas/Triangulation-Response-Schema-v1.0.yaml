@@ -1,0 +1,123 @@
+# Triangulation Response Schema (v1.0)
+# Defines the machine-readable structure of triangulation responses used by IDE diagnostics.
+
+version: "1.0"
+indexed_as: "TISD-Schema-004"
+
+response:
+  description: "Top-level triangulation response object."
+  fields:
+    ok:
+      type: boolean
+      description: "Indicates whether all invariants passed."
+    violations:
+      type: list
+      description: "List of invariant violations."
+      items:
+        $ref: "#/violation"
+    requiredActions:
+      type: list
+      description: "Actions required to resolve violations."
+      items:
+        type: string
+    affectedArtifacts:
+      type: list
+      description: "Artifacts impacted by the triangulation operation."
+      items:
+        $ref: "#/artifact"
+
+artifact:
+  description: "Governance artifact state returned by triangulation."
+  fields:
+    id: { type: string }
+    repo: { type: string }
+    path: { type: string }
+    type:
+      type: string
+      enum: ["directive", "case-study", "roadmap", "reconstruction"]
+    manifold:
+      type: string
+      enum: ["Orbital", "TISD", "NDH"]
+    version: { type: string }
+    status:
+      type: string
+      enum: ["active", "superseded", "archived"]
+
+violation:
+  description: "Invariant violation returned by triangulation."
+  fields:
+    code:
+      type: string
+      enum:
+        - F_MANIFOLD_MISMATCH
+        - F_MANIFOLD_TRANSITION_INVALID
+        - F_MANIFOLD_LIMINAL_STATE
+        - F_METADATA_INCOMPLETE
+        - F_METADATA_INCONSISTENT
+        - F_METADATA_ORPHANED
+        - F_SUPERSESSION_INCOMPLETE
+        - F_SUPERSESSION_MULTIPARENT
+        - F_SUPERSESSION_UNDECLARED
+        - F_ARCHIVE_PRECONDITION_UNMET
+        - F_MIRROR_DIVERGENCE
+        - F_MIRROR_ORPHANED
+        - F_LINEAGE_GAP
+        - F_PROVENANCE_INVALID
+        - F_DRIFT_REPO
+        - F_DRIFT_MANIFOLD
+        - F_DRIFT_METADATA
+        - F_DRIFT_MIRROR
+        - F_COMMIT_UNSAFE
+        - F_COMMIT_LIMINAL
+        - F_COMMIT_UNDECLARED_CHANGE
+    severity:
+      type: string
+      enum: ["error", "warning", "info"]
+    message:
+      type: string
+    invariant:
+      type: string
+      description: "Invariant associated with the violation."
+    suggestedActions:
+      type: list
+      items:
+        type: string
+
+metadataDiagnostics:
+  description: "Diagnostic mapping for metadata block annotations."
+  fields:
+    highlightMissingFields:
+      type: boolean
+      default: true
+    highlightInconsistentFields:
+      type: boolean
+      default: true
+    highlightOrphanedMetadata:
+      type: boolean
+      default: true
+
+pathDiagnostics:
+  description: "Diagnostic mapping for file path annotations."
+  fields:
+    highlightInvalidManifoldPaths:
+      type: boolean
+      default: true
+    highlightArchivePaths:
+      type: boolean
+      default: true
+    highlightMirrorPaths:
+      type: boolean
+      default: true
+
+commitDiagnostics:
+  description: "Diagnostic mapping for commit-level annotations."
+  fields:
+    highlightCommitDiff:
+      type: boolean
+      default: true
+    highlightSupersessionChanges:
+      type: boolean
+      default: true
+    highlightMetadataChanges:
+      type: boolean
+      default: true
