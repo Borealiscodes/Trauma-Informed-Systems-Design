@@ -1,0 +1,75 @@
+# Supersession Automation Schema (v1.0)
+# Machine-readable automation rules for NDH-Orbital supersession workflows.
+
+version: "1.0"
+indexed_as: "TISD-Schema-005"
+
+automation:
+
+  triggers:
+    description: "Events that initiate supersession automation."
+    onMetadataSupersedesField: true
+    onStatusSuperseded: true
+    onCommand:
+      - "ndh.governance.validateSupersession"
+      - "ndh.governance.runTriangulation"
+
+  validation:
+    description: "Triangulation gates that must pass before automation executes."
+    gql_query: "triangulateCommit"
+    required_invariants:
+      - INV_SUPERSESSION_REQUIRES_ARCHIVE
+      - INV_SUPERSESSION_SINGLE_PARENT
+      - INV_SUPERSESSION_DECLARATIVE
+      - INV_METADATA_COMPLETE
+      - INV_METADATA_CONSISTENT
+      - INV_LINEAGE_CHAIN_COMPLETE
+      - INV_PROVENANCE_VALID
+      - INV_ARCHIVE_PRECONDITION
+      - INV_MIRROR_CONSISTENCY
+      - INV_COMMIT_SAFE
+
+  execution:
+    description: "Automated actions performed when validation succeeds."
+    metadata_updates:
+      predecessor:
+        status: "archived"
+      successor:
+        status: "active"
+        update_lineage: true
+        update_provenance: true
+
+    mirror_updates:
+      synchronize: true
+      enforce_consistency: true
+      update_lineage: true
+      update_provenance: true
+      update_status: true
+
+    stability_enforcement:
+      prevent_liminal_states: true
+      prevent_drift:
+        repo: true
+        manifold: true
+        metadata: true
+        mirror: true
+
+  failure_handling:
+    description: "Behavior when triangulation returns ok = false."
+    block_automation: true
+    surface_diagnostics: true
+    diagnostics:
+      annotate_metadata: true
+      annotate_lineage: true
+      annotate_provenance: true
+      annotate_archive_paths: true
+      annotate_mirror_paths: true
+
+  ide_integration:
+    description: "VS Code integration rules for supersession automation."
+    block_commit_on_failure: true
+    show_hover_diagnostics: true
+    show_problems_panel: true
+    commands:
+      validateSupersession: "ndh.governance.validateSupersession"
+      runTriangulation: "ndh.governance.runTriangulation"
