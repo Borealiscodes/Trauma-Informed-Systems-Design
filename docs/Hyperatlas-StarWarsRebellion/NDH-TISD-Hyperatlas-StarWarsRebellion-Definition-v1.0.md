@@ -1,3 +1,9 @@
+# Hyperatlas–StarWarsRebellion  
+### NDH–TISD Domain Ecology • Origin Manifold Series  
+This document participates in the sovereign Hyperatlas-StarWarsRebellion 
+architecture, a multi-canon, multi-ontology, multi-physics expressive atlas 
+governed by NDH Stability Geometry and Trauma-Informed-Systems-Design.
+
 # **NDH‑TISD Hyperatlas — Star Wars Rebellion**  
 ## **Definition v1.0**  
 ### *Origin Manifold for a Multi‑Canon, Multi‑Ontology, Multi‑Physics Expressive Atlas*
