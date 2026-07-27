@@ -1,0 +1,182 @@
+# GQL Triangulation Schema (v1.0)
+# Machine-readable schema defining triangulation queries, responses, and invariant mapping.
+
+version: "1.0"
+indexed_as: "TISD-Schema-001"
+
+gql:
+  queries:
+    triangulateArtifact:
+      description: "Validate a single artifact's governance state."
+      params:
+        id:
+          type: string
+          required: true
+      returns:
+        ok:
+          type: boolean
+        violations:
+          type: list
+          items:
+            $ref: "#/failure"
+        requiredActions:
+          type: list
+          items:
+            type: string
+
+    triangulateCommit:
+      description: "Validate all artifacts affected by a commit."
+      params:
+        commitId:
+          type: string
+          required: true
+      returns:
+        ok:
+          type: boolean
+        affectedArtifacts:
+          type: list
+          items:
+            $ref: "#/artifact"
+        violations:
+          type: list
+          items:
+            $ref: "#/failure"
+        requiredActions:
+          type: list
+          items:
+            type: string
+
+    triangulateMove:
+      description: "Validate manifold correctness during file moves."
+      params:
+        fromPath:
+          type: string
+          required: true
+        toPath:
+          type: string
+          required: true
+      returns:
+        ok:
+          type: boolean
+        violations:
+          type: list
+          items:
+            $ref: "#/failure"
+        requiredActions:
+          type: list
+          items:
+            type: string
+
+artifact:
+  description: "Governance artifact state returned by triangulation."
+  fields:
+    id: { type: string }
+    repo: { type: string }
+    path: { type: string }
+    type: { type: string, enum: ["directive", "case-study", "roadmap", "reconstruction"] }
+    manifold: { type: string, enum: ["Orbital", "TISD", "NDH"] }
+    version: { type: string }
+    status: { type: string, enum: ["active", "superseded", "archived"] }
+
+failure:
+  description: "Invariant violation returned by triangulation."
+  fields:
+    code:
+      type: string
+      enum:
+        - F_MANIFOLD_MISMATCH
+        - F_MANIFOLD_TRANSITION_INVALID
+        - F_MANIFOLD_LIMINAL_STATE
+        - F_METADATA_INCOMPLETE
+        - F_METADATA_INCONSISTENT
+        - F_METADATA_ORPHANED
+        - F_SUPERSESSION_INCOMPLETE
+        - F_SUPERSESSION_MULTIPARENT
+        - F_SUPERSESSION_UNDECLARED
+        - F_ARCHIVE_PRECONDITION_UNMET
+        - F_MIRROR_DIVERGENCE
+        - F_MIRROR_ORPHANED
+        - F_LINEAGE_GAP
+        - F_PROVENANCE_INVALID
+        - F_DRIFT_REPO
+        - F_DRIFT_MANIFOLD
+        - F_DRIFT_METADATA
+        - F_DRIFT_MIRROR
+        - F_COMMIT_UNSAFE
+        - F_COMMIT_LIMINAL
+        - F_COMMIT_UNDECLARED_CHANGE
+    severity:
+      type: string
+      enum: ["error", "warning", "info"]
+    message:
+      type: string
+    invariant:
+      type: string
+    suggestedActions:
+      type: list
+      items:
+        type: string
+
+invariants:
+  description: "Mapping of invariant codes to failure types."
+  mapping:
+    INV_MANIFOLD_CORRECTNESS:
+      failures:
+        - F_MANIFOLD_MISMATCH
+        - F_MANIFOLD_LIMINAL_STATE
+
+    INV_MANIFOLD_IMMUTABILITY:
+      failures:
+        - F_MANIFOLD_TRANSITION_INVALID
+
+    INV_METADATA_COMPLETE:
+      failures:
+        - F_METADATA_INCOMPLETE
+
+    INV_METADATA_CONSISTENT:
+      failures:
+        - F_METADATA_INCONSISTENT
+        - F_METADATA_ORPHANED
+
+    INV_SUPERSESSION_REQUIRES_ARCHIVE:
+      failures:
+        - F_SUPERSESSION_INCOMPLETE
+
+    INV_SUPERSESSION_SINGLE_PARENT:
+      failures:
+        - F_SUPERSESSION_MULTIPARENT
+
+    INV_SUPERSESSION_DECLARATIVE:
+      failures:
+        - F_SUPERSESSION_UNDECLARED
+
+    INV_ARCHIVE_PRECONDITION:
+      failures:
+        - F_ARCHIVE_PRECONDITION_UNMET
+
+    INV_MIRROR_CONSISTENCY:
+      failures:
+        - F_MIRROR_DIVERGENCE
+        - F_MIRROR_ORPHANED
+
+    INV_LINEAGE_CHAIN_COMPLETE:
+      failures:
+        - F_LINEAGE_GAP
+
+    INV_PROVENANCE_VALID:
+      failures:
+        - F_PROVENANCE_INVALID
+
+    INV_TRIANGULATION_NO_DRIFT:
+      failures:
+        - F_DRIFT_REPO
+        - F_DRIFT_MANIFOLD
+        - F_DRIFT_METADATA
+        - F_DRIFT_MIRROR
+
+    INV_COMMIT_SAFE:
+      failures:
+        - F_COMMIT_UNSAFE
+        - F_COMMIT_LIMINAL
+        - F_COMMIT_UNDECLARED_CHANGE
+
