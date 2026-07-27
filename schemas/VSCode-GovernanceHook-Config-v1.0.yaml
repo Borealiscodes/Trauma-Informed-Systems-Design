@@ -1,0 +1,96 @@
+# VS Code Governance Hook Configuration (v1.0)
+# Machine-readable configuration binding hooks to GQL queries and invariants.
+
+version: "1.0"
+indexed_as: "TISD-Schema-003"
+
+hooks:
+
+  onSaveManifoldValidation:
+    description: "Validate manifold correctness and metadata completeness on save."
+    gql_query: "triangulateArtifact"
+    invariants:
+      - INV_MANIFOLD_CORRECTNESS
+      - INV_METADATA_COMPLETE
+      - INV_METADATA_CONSISTENT
+      - INV_TRIANGULATION_NO_DRIFT
+    failure_severity_block:
+      - error
+    failure_severity_warn:
+      - warning
+    diagnostics:
+      annotate_metadata: true
+      annotate_file_path: true
+
+  refactorMoveManifoldGuard:
+    description: "Validate manifold transitions during file moves and refactors."
+    gql_query: "triangulateMove"
+    invariants:
+      - INV_MANIFOLD_IMMUTABILITY
+      - INV_MANIFOLD_CORRECTNESS
+      - INV_TRIANGULATION_NO_DRIFT
+    failure_severity_block:
+      - error
+    diagnostics:
+      annotate_source_path: true
+      annotate_destination_path: true
+
+  metadataBlockValidator:
+    description: "Validate metadata block completeness and consistency."
+    gql_query: "triangulateArtifact"
+    invariants:
+      - INV_METADATA_COMPLETE
+      - INV_METADATA_CONSISTENT
+      - INV_LINEAGE_CHAIN_COMPLETE
+      - INV_PROVENANCE_VALID
+    failure_severity_block:
+      - error
+    failure_severity_warn:
+      - warning
+    diagnostics:
+      annotate_metadata: true
+
+  preCommitSupersessionValidation:
+    description: "Validate supersession correctness before commit."
+    gql_query: "triangulateCommit"
+    invariants:
+      - INV_SUPERSESSION_REQUIRES_ARCHIVE
+      - INV_SUPERSESSION_SINGLE_PARENT
+      - INV_SUPERSESSION_DECLARATIVE
+      - INV_ARCHIVE_PRECONDITION
+      - INV_MIRROR_CONSISTENCY
+      - INV_LINEAGE_CHAIN_COMPLETE
+      - INV_PROVENANCE_VALID
+      - INV_COMMIT_SAFE
+    failure_severity_block:
+      - error
+    diagnostics:
+      annotate_metadata: true
+      annotate_commit_diff: true
+
+  archiveMirrorPreconditionValidation:
+    description: "Validate archive and mirror preconditions before save or commit."
+    gql_query: "triangulateCommit"
+    invariants:
+      - INV_ARCHIVE_PRECONDITION
+      - INV_MIRROR_CONSISTENCY
+      - INV_METADATA_COMPLETE
+      - INV_METADATA_CONSISTENT
+      - INV_LINEAGE_CHAIN_COMPLETE
+      - INV_PROVENANCE_VALID
+    failure_severity_block:
+      - error
+    diagnostics:
+      annotate_metadata: true
+      annotate_archive_paths: true
+      annotate_mirror_paths: true
+
+diagnostics:
+  style:
+    error_color: "#FF4A4A"
+    warning_color: "#FFA500"
+    info_color: "#4A90E2"
+  display:
+    show_in_editor: true
+    show_in_problems_panel: true
+    show_in_hover: true
