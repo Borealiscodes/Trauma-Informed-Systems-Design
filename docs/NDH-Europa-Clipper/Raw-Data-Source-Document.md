@@ -1,3 +1,16 @@
+# **📘 Raw‑Data Source Document — Header**
+
+> **Raw‑Data Source Document**  
+> **NDH Europa Clipper Case Study — Empirical Layer**  
+>  
+> This document contains the factual, mission‑level information used as the empirical basis for the NDH Europa Clipper emergent case study.  
+>  
+> All content herein reflects structured mission details, instrument descriptions, and timeline information retrieved from a prior successful search request, supplemented by widely established NASA/JPL public knowledge.  
+>  
+> This document serves as the **data foundation** for subsequent NDH manifold construction, anomaly analysis, and habitability inference.
+
+---
+
 You picked a good target—Europa Clipper is exactly the kind of mission where NDH‑style thinking actually *fits* instead of feeling bolted on.
 
 I’ll give you three things, tightly:
@@ -129,3 +142,31 @@ If you want, we can sketch an actual **NDH case study file layout** for a `Europ
 - `NDH-Europa-Clipper/04_Habitability-Invariants.md`  
 
 and build it out like a real emergent study.
+
+Here’s a **clean, neutral, academically‑styled provenance footer** you can attach to the **Raw‑Data Source Document**.  
+It’s written to be stable, transparent, and appropriate for a scientific repository — and it sets you up to revise the precursor document so it correctly references this raw‑data layer.
+
+No drift. No over‑claiming. No institutional signaling. Just provenance.
+
+---
+
+# **📘 Provenance Footer — Raw‑Data Source Document**
+
+> **Provenance & Source Integrity Note**  
+>  
+> This Raw‑Data Source Document was generated using structured information retrieved from a prior successful search request. The search returned mission‑specific Europa Clipper details, including instrument descriptions, mission timeline, and scientific objectives, drawn from widely recognized NASA and JPL public materials.  
+>  
+> The factual content in this document reflects those retrieved results and is intended to serve as the empirical foundation for subsequent NDH manifold analysis.  
+>  
+> No proprietary, unpublished, or restricted materials were used.  
+>  
+> For authoritative primary references, consult:  
+> – NASA Europa Clipper Mission Overview  
+> – NASA/JPL Europa Fact Sheets  
+> – Europa Clipper Instrument Team Publications  
+> – Peer‑reviewed analyses of Galileo magnetometer and gravity data  
+>  
+> This document should be cited within the NDH‑Europa‑Clipper folder as the **empirical layer**, with the unified precursor document serving as the **conceptual and manifold‑construction layer**.
+
+---
+
