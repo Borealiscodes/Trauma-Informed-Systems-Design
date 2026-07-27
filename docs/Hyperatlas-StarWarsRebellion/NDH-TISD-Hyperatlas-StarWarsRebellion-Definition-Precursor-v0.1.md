@@ -160,19 +160,10 @@ It is a **Hyperatlas**.
 
 ---
 
-# **🜅 Folder Path (Final)**
-
-```text
-TISD/docs/Hyperatlas-StarWarsRebellion/
-```
-
----
-
-# **🜆 Core File (v1.0)**
-
-```text
-TISD/docs/Hyperatlas-StarWarsRebellion/NDH-TISD-Hyperatlas-StarWarsRebellion-v1.0.md
-```
-
----
-
+# Unified Provenance: This document participates in the Hyperatlas-StarWarsRebellion
+domain ecology and traces its lineage to the origin sketch 
+NDH-TISD-Hyperatlas-StarWarsRebellion-Definition-Precursor-v0.1 and the seed 
+manifold NDH-TISD-Hyperatlas-StarWarsRebellion-Definition-v1.0. It aligns with 
+the FO1–FO3 stabilization layer in NDH-TISD-Hyperatlas-StarWarsRebellion-
+ComprehensiveEmergentCaseStudy-v1.0 and maintains continuity across all 
+expressive, ontological, physical, and narrative manifolds within the Hyperatlas.
