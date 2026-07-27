@@ -1,0 +1,96 @@
+# VS Code Extension Manifest (v1.0)
+# Defines activation events, contributions, commands, and governance hook bindings.
+
+version: "1.0"
+indexed_as: "TISD-Extension-001"
+
+extension:
+  name: "ndh-orbital-governance"
+  displayName: "NDH-Orbital Governance Hooks"
+  description: "Enforces NDH-Orbital invariants using GQL triangulation."
+  publisher: "Borealiscodes"
+  engines:
+    vscode: "^1.90.0"
+
+activationEvents:
+  - onStartupFinished
+  - onSave
+  - onWillSaveTextDocument
+  - onWillRenameFiles
+  - onWillCreateFiles
+  - onWillDeleteFiles
+  - onCommand:ndh.governance.validateMetadata
+  - onCommand:ndh.governance.validateSupersession
+  - onCommand:ndh.governance.runTriangulation
+
+contributes:
+
+  commands:
+    - command: "ndh.governance.validateMetadata"
+      title: "Validate Metadata Block"
+      category: "NDH Governance"
+
+    - command: "ndh.governance.validateSupersession"
+      title: "Validate Supersession"
+      category: "NDH Governance"
+
+    - command: "ndh.governance.runTriangulation"
+      title: "Run Full Triangulation"
+      category: "NDH Governance"
+
+  configuration:
+    title: "NDH-Orbital Governance Settings"
+    properties:
+      ndh.governance.enableDiagnostics:
+        type: boolean
+        default: true
+        description: "Enable triangulation-based diagnostics."
+
+      ndh.governance.blockOnErrors:
+        type: boolean
+        default: true
+        description: "Block saves/commits when triangulation returns errors."
+
+      ndh.governance.showHoverDiagnostics:
+        type: boolean
+        default: true
+        description: "Show invariant violations in hover tooltips."
+
+      ndh.governance.schemaPaths:
+        type: array
+        description: "Paths to YAML schemas used by the extension."
+        default:
+          - "schemas/GQL-Triangulation-Schema-v1.0.yaml"
+          - "schemas/NDH-Orbital-Minimal-Invariants-v1.0.yaml"
+          - "schemas/VSCode-GovernanceHook-Config-v1.0.yaml"
+
+governanceHooks:
+  onSave:
+    handler: "hooks.onSaveManifoldValidation"
+    configRef: "VSCode-GovernanceHook-Config-v1.0.yaml"
+
+  onRefactorMove:
+    handler: "hooks.refactorMoveManifoldGuard"
+    configRef: "VSCode-GovernanceHook-Config-v1.0.yaml"
+
+  onMetadataEdit:
+    handler: "hooks.metadataBlockValidator"
+    configRef: "VSCode-GovernanceHook-Config-v1.0.yaml"
+
+  onPreCommit:
+    handler: "hooks.preCommitSupersessionValidation"
+    configRef: "VSCode-GovernanceHook-Config-v1.0.yaml"
+
+  onArchiveMirror:
+    handler: "hooks.archiveMirrorPreconditionValidation"
+    configRef: "VSCode-GovernanceHook-Config-v1.0.yaml"
+
+diagnostics:
+  style:
+    error_color: "#FF4A4A"
+    warning_color: "#FFA500"
+    info_color: "#4A90E2"
+  display:
+    show_in_editor: true
+    show_in_problems_panel: true
+    show_in_hover: true
