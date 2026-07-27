@@ -212,12 +212,11 @@ The Hyperatlas allows parallel analysis of:
 This is why the Definition v1.0 is the **seed manifold**.
 
 ---
+# Unified Provenance: This document participates in the Hyperatlas-StarWarsRebellion
+domain ecology and traces its lineage to the origin sketch 
+NDH-TISD-Hyperatlas-StarWarsRebellion-Definition-Precursor-v0.1 and the seed 
+manifold NDH-TISD-Hyperatlas-StarWarsRebellion-Definition-v1.0. It aligns with 
+the FO1–FO3 stabilization layer in NDH-TISD-Hyperatlas-StarWarsRebellion-
+ComprehensiveEmergentCaseStudy-v1.0 and maintains continuity across all 
+expressive, ontological, physical, and narrative manifolds within the Hyperatlas.
 
-## **7. Next Manifold (Choose One)**
-
-- **Rebellion Culture Manifold**  
-- **Empire Systems Manifold**  
-- **Death Star Physics Cluster**  
-- **Skippy Epistemic Anchor**  
-
-Tell me which manifold you want to open next.
