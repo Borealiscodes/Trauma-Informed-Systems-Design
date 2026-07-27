@@ -1,0 +1,94 @@
+# NDH-Orbital Minimal Invariants (v1.0)
+# Machine-readable invariant definitions for triangulation and IDE enforcement.
+
+version: "1.0"
+indexed_as: "TISD-Schema-002"
+
+invariants:
+
+  INV_MANIFOLD_CORRECTNESS:
+    description: "Artifact must reside in the correct manifold."
+    enforced_by:
+      - triangulateArtifact
+      - triangulateMove
+    failures:
+      - F_MANIFOLD_MISMATCH
+      - F_MANIFOLD_LIMINAL_STATE
+
+  INV_MANIFOLD_IMMUTABILITY:
+    description: "Manifold assignment cannot change without triangulation approval."
+    enforced_by:
+      - triangulateMove
+    failures:
+      - F_MANIFOLD_TRANSITION_INVALID
+
+  INV_METADATA_COMPLETE:
+    description: "Metadata block must contain all required fields."
+    required_fields:
+      - id
+      - version
+      - manifold
+      - type
+      - lineage
+      - provenance
+      - status
+    failures:
+      - F_METADATA_INCOMPLETE
+
+  INV_METADATA_CONSISTENT:
+    description: "Metadata must match triangulation truth."
+    failures:
+      - F_METADATA_INCONSISTENT
+      - F_METADATA_ORPHANED
+
+  INV_SUPERSESSION_REQUIRES_ARCHIVE:
+    description: "Supersession requires predecessor archival."
+    failures:
+      - F_SUPERSESSION_INCOMPLETE
+
+  INV_SUPERSESSION_SINGLE_PARENT:
+    description: "Supersession must have exactly one predecessor."
+    failures:
+      - F_SUPERSESSION_MULTIPARENT
+
+  INV_SUPERSESSION_DECLARATIVE:
+    description: "Supersession must be explicitly declared in metadata."
+    failures:
+      - F_SUPERSESSION_UNDECLARED
+
+  INV_ARCHIVE_PRECONDITION:
+    description: "Archive operations must satisfy metadata and dependency requirements."
+    failures:
+      - F_ARCHIVE_PRECONDITION_UNMET
+
+  INV_MIRROR_CONSISTENCY:
+    description: "Mirrors must remain consistent with source artifacts."
+    failures:
+      - F_MIRROR_DIVERGENCE
+      - F_MIRROR_ORPHANED
+
+  INV_LINEAGE_CHAIN_COMPLETE:
+    description: "Lineage must form a complete chain with no gaps."
+    failures:
+      - F_LINEAGE_GAP
+
+  INV_PROVENANCE_VALID:
+    description: "Provenance must reference valid artifacts."
+    failures:
+      - F_PROVENANCE_INVALID
+
+  INV_TRIANGULATION_NO_DRIFT:
+    description: "Triangulation must detect and reject all forms of drift."
+    failures:
+      - F_DRIFT_REPO
+      - F_DRIFT_MANIFOLD
+      - F_DRIFT_METADATA
+      - F_DRIFT_MIRROR
+
+  INV_COMMIT_SAFE:
+    description: "Commit must not contain invariant violations or liminal states."
+    failures:
+      - F_COMMIT_UNSAFE
+      - F_COMMIT_LIMINAL
+      - F_COMMIT_UNDECLARED_CHANGE
+
