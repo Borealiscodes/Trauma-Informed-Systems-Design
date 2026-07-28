@@ -1,3 +1,32 @@
+# AXIS HEADER  
+## Axis Identity  
+This document defines a foundational axis within the NDH/TIDS 80D architecture.  
+It establishes the structural identity, scope, and invariants of the axis and  
+serves as a stable foundation for manifold formation and spine construction.
+
+## Axis Scope  
+This axis captures raw data related to procedural access barriers, emergency  
+filing constraints, and structural choke points affecting judicial access.  
+Scope is limited to extracted, non‑interpretive, non‑strategic information.
+
+## Axis Constraints  
+- No narrative content  
+- No strategy content  
+- No recommendations  
+- No analysis  
+- No cross‑axis binding  
+- No manifold formation  
+- No roadmap elements  
+- Raw‑data purity must be preserved
+
+## Axis Invariants  
+- Axis identity must remain stable  
+- Raw‑data content must remain unaltered except for correction  
+- Provenance must be recorded in the footer  
+- Axis must be compatible with NDH/TIDS manifold binding  
+- Axis must support future spine construction without drift
+
+
 **Short takeaway:**  
 Delaware Chancery **does allow pro se emergency filings**, but the options are **limited**, **not email‑based for civil actions**, and **require either e‑filing through File & ServeXpress or physical delivery**. Emergency email channels exist **only for guardianship matters**, not for civil injunctions. This creates real barriers for a pro se litigant experiencing judicial harassment or unable to use mail.
 
@@ -150,3 +179,35 @@ This is a **structural access problem**, not a doctrinal one.
 If you want, I can map this into a **preliminary access‑risk manifold**:
 
 - **Generate Chancery Access‑Risk Manifold**
+
+---
+
+# PROVENANCE FOOTER  
+## Source Lineage  
+This axis contains raw data extracted from publicly available judicial procedural  
+rules, administrative access structures, and filing requirements. All content is  
+preserved in non‑narrative form and reflects original structural information  
+without interpretation or analysis.
+
+## Extraction Context  
+Raw data was collected to establish a stable foundation within the NDH/TIDS 80D  
+architecture. Extraction was limited to domain‑specific facts, procedural  
+constraints, and access‑related structures.
+
+## Raw‑Data Purity  
+- No narrative elements were introduced  
+- No strategic framing was added  
+- No interpretive content was included  
+- No manifold binding was performed  
+- No cross‑axis synthesis was applied
+
+## Foundation Status  
+This axis is designated as a foundation‑grade artifact.  
+It is eligible for manifold formation and spine construction.  
+Its identity, scope, constraints, and invariants must remain stable.
+
+## Update Protocol  
+Any future updates must preserve raw‑data purity and maintain axis invariants.  
+Corrections may be applied only to factual inaccuracies or structural omissions.  
+Cross‑axis binding may occur only at the spine level.
+
