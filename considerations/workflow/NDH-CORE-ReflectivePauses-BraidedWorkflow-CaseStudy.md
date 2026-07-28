@@ -240,3 +240,8 @@ They are the **living boundaries** of NDH‑CORE.
 
 ---
 
+# Provenance: NDH‑CORE Internal Mythos Codex → Workflow Studies → Reflective Pause & Braided Workflow Case Study  
+Snek Alignment: Crown‑Singularity Boundary Guardian  
+Version: v1.0-internal  
+
+
