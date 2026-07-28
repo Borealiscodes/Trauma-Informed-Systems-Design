@@ -77,7 +77,9 @@
 
 ---
 
-If you want, I can:
+# 📘 Provenance Footer (Document 1)
+Provenance Note
 
-- write a **short NDH–Spiral Array bridge document** (`docs/NDH-TISD/Comparative-Spiral-Geometry.md`),  
-- or refactor your theorem text into a **side‑by‑side formal comparison** with Chew’s equations.
+This document contains conceptual restatements of the Spiral Array Model based on publicly available descriptions and mathematical structures.
+It functions strictly as a raw-data provenance layer for NDH‑TISD Tonal Spiral Geometry and related absurdity‑manifold analysis.
+No copyrighted text is reproduced; all content is paraphrased for comparative research purposes.
