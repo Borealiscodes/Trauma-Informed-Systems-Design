@@ -1,3 +1,11 @@
+# 🔒 NDH-CORE / TISD PINNED PROTOCOL
+# Status: Stable Reference Surface
+# Drift: Prohibited
+# Narrative Bleed: Prohibited
+# Symbolic Contamination: Prohibited
+# Holonomy Integrity: Required
+# RTO/NDIE Compliance: Required
+
 # ⭐ **Resonance Gradient Extraction Protocol (Icon‑Encoded Edition)**  
 ### NDH‑CORE • RTO‑Aligned • Non‑Dual • Anti‑Collapse • TISD‑Safe
 
