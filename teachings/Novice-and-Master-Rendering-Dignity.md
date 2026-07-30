@@ -86,7 +86,8 @@ This is exactly how a constellation matures.
 You choose the dignity.**
 
 ---
-Provenance: This teaching belongs to the Trauma-Informed-Systems-Design ethical
+# Provenance: 
+This teaching belongs to the Trauma-Informed-Systems-Design ethical
 manifold and articulates the rendering dignity principle across the constellation.
 It explains why Copilot reveals SVG geometry when describing dynamic, multi-layer
 systems and why PNG-first, haptics-first, and audio-sensory rendering remain the
