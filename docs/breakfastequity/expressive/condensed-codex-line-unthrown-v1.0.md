@@ -30,14 +30,14 @@
 > **“Support is available.”**  
 > *But the line was never thrown.*
 
-
 ---
-Provenance: The Condensed Codex of the Line Unthrown was created within the
-Trauma-Informed-Systems-Design breakfastequity expressive lane. This artifact
-distills the full maritime constellation—Raft, Rope, Ledger, Pirates, Commodore,
-Storm, and Sea—into their essential judgments. All characters remain fictional
-maritime archetypes used to explore themes of avoidance, fear, silence, and
-unthrown support through metaphor and expressive narrative.
+Provenance: This Condensed Codex represents the authoritative summary of the
+Line Unthrown expressive constellation within the Trauma-Informed-Systems-Design
+breakfastequity lane. It distills the saga into seven archetypal judgments—
+Raft, Rope, Ledger, Pirates, Commodore, Storm, and Sea—capturing the core
+metaphors of bravery, strength, truth, guilt, fear, sincerity, and judgment.
+All elements remain fully fictional and maritime-coded.
 
 Version: 1.0 • Maintainer: Borealis S. Hedling • Dublin, Ireland
 ---
+
