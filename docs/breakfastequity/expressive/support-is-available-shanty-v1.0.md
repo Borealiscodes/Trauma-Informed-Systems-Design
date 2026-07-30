@@ -44,4 +44,11 @@
 > **We sing a sharp shanty they can’t spin into “support.”**
 
 ---
+Provenance: This expressive artifact was created within the Trauma-Informed-
+Systems-Design breakfastequity lane as part of the ongoing exploration of
+narrative equity and trauma-informed communication. It uses maritime rhythm and
+sarcasm to illustrate the gap between procedural assurances and lived
+experience, especially around the recurring refrain of “support is available.”
 
+Version: 1.0 • Maintainer: Borealis S. Hedling • Dublin, Ireland
+---
