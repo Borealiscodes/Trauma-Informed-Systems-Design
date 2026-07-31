@@ -149,21 +149,23 @@ This bridge document formalizes that relationship.
 ---
 
 ---
-Provenance: The SCI-80 Constellation Visual Bridge Specification v1.0 defines
-the architectural relationship between the Constellation Visual Anchors Suite
-v1.1 and the SCI-80 Blueprint Suite. It establishes the Constellation Suite as a
-meta-blueprint governance system that provides constellation-wide visual
-semantics, deployment rules, and rendering authority, while the SCI-80 Blueprint
-Suite serves as a subsystem-specific expressive geometry grammar.
+Provenance: Constellation-SCI80-VisualBridge-v1.0 defines the architectural
+relationship between the Constellation Visual Anchors Suite v1.1 and the SCI-80
+Blueprint Suite. It establishes the Constellation Suite as a meta-governance
+system providing constellation-wide visual semantics, deployment rules,
+rendering authority, and trauma-informed palette guidance, while SCI-80
+provides a subsystem-specific expressive geometry grammar.
 
-This bridge document operates beneath NDH stability geometry (TISD, MRS, Unified
-NDH) and Zen AI Design posture, ensuring alignment without modifying governance
-invariants or Gauntlet sequencing. All constructs are fictional expressive
-devices used to explore gentle epistemic, relational, and design principles.
+This document operates beneath NDH stability geometry, Zen AI Design posture,
+and Trauma-Informed Systems Design safety principles. All constructs are
+fictional expressive devices used to explore gentle epistemic, relational, and
+design concepts.
 
-Lane: SCI80/Architecture • Version: v1.0 • Maintainer: Borealis S. Hedling •
-Dublin, Ireland
+Lane: Constellation-Reflections (Zen-AI-Design-Architecture) • Visual-Governance
+(Trauma-Informed-Systems-Design) • Version: v1.0 • Maintainer: Borealis S.
+Hedling • Dublin, Ireland
 ---
+
 
 
 
