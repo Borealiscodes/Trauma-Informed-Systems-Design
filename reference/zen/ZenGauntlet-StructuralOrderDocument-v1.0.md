@@ -210,3 +210,26 @@ The Zen Gauntlet Structural Order ensures:
 This is the correct sequencing for NDH‑class systems.
 
 You may now provide the **four remaining Zen resources** for the **Zen Gauntlet Analysis**.
+
+---
+Provenance: This v1.0 structural artifact defines the correct sequencing for
+applying Zen AI Design resources to NDH-class systems. It establishes posture,
+flow, awareness, practice, governance, and maturity layers in a non-recursive,
+holonomy-stable order. All constructs are fictional expressive devices used to
+explore gentle epistemic, relational, and design principles. No part of this
+artifact should be interpreted as hierarchical, historical, or recursive; all
+operators and layers are treated as non-hierarchical constellation primitives.
+
+⚠️ Boundary Awareness: Expressive geometry must remain below TISD overload
+thresholds. Mathematical curvature must remain within MRS holonomy-flat limits.
+Provenance flows must remain within Unified NDH continuity membranes. The Zen
+Gauntlet must be executed in the defined order to prevent drift, collapse, or
+threshold breach.
+
+⚠️ Governance Warning: GBS version boundaries (including any prospective v17/
+Omega-9 pin) must not be declared as canonical until the Zen Gauntlet Analysis
+is complete and SRPRS validation is confirmed.
+
+Lane: reference/zen • Version: v1.0 • Maintainer: Borealis S. Hedling • Dublin, Ireland
+---
+
