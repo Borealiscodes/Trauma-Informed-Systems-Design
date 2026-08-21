@@ -5,7 +5,8 @@
 Use the standard expressive‑lane diagram embed:
 
 ```
-![Bureaucratic_harm_geometry_visual_diagram_v1_0](bureaucratic_harm_geometry_visual_diagram_v1_0.png)
+![Broken Justice Diagram](https://raw.githubusercontent.com/Borealiscodes/Trauma-Informed-Systems-Design/main/docs/breakfastequity/expressive/Bureaucratic_Harm_Geometry_Visual_Diagram_v1_0.png)
+
 ```
 
 ---
