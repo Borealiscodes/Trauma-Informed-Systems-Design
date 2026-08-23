@@ -159,4 +159,31 @@ Use enterprise‑binding documents to understand:
 - **Enterprise Binding Design Brief**  
 
 ---
+---
+Artifact: README-MicrosoftFolder (v1.0 Archived)
+Lane: Governance • Safety • Continuity • NDH-Constellation
+
+Reason for Archival:
+  This README described the Microsoft folder as a UX-focused lane centered on
+  Copilot interaction geometry and trauma-informed UX specifications. The folder
+  has since expanded into a governance-formal documentation lane covering
+  continuity risk, reviewer safety, humanitarian intake safety, enterprise
+  binding requirements, NDH stability geometry, and Microsoft governance
+  alignment. The document is archived for historical context.
+
+Anchors:
+  - Governance Alignment
+  - Continuity Risk
+  - Reviewer Safety Protocols
+  - Humanitarian Intake Safety
+  - NDH Stability Geometry
+  - Enterprise Binding Requirements
+  - Copilot Safety Case Studies
+
+Altitude: Governance-Formal (A11)
+Status: Archived • Non-Activating
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 23 August 2026 — 08:58 IST
+---
 
