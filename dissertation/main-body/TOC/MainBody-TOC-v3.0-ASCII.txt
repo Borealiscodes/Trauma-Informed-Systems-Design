@@ -1,0 +1,107 @@
+# ASCII Diagram — Main Body Architecture (v3.0)
+`
+┌──────────────────────────────────────────────────────────────┐
+│                     MAIN BODY ARCHITECTURE                   │
+│                        (v3.0 — Tightened)                    │
+└──────────────────────────────────────────────────────────────┘
+
+                         ┌──────────────────┐
+                         │  CHAPTER 1       │
+                         │  Structural       │
+                         │  Indictment       │
+                         └────────┬─────────┘
+                                  │
+                                  ▼
+┌──────────────────────────────────────────────────────────────┐
+│ I. SYSTEMS ARCHITECTURE LAYER                                 │
+├──────────────────────────────────────────────────────────────┤
+│ 1. Crime Against Humanity That Is Bureaucracy                 │
+│ 2. GC3 Non‑Fragmentation Principle                            │
+│ 3. Article 14 CAT — Rehabilitation as Justice                 │
+│ 4. Montgomery’s Multiagency Collusion Model                   │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ II. HARM MODELING LAYER                                       │
+├──────────────────────────────────────────────────────────────┤
+│ 5. Bureaucratic Cruelty as a Condition                        │
+│ 6. Transnational Repression Architecture                      │
+│ 7. The Erasure Mechanism                                      │
+│ 8. The Duress Environment                                     │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ III. COMPASSION AS STRUCTURAL INTERVENTION                    │
+├──────────────────────────────────────────────────────────────┤
+│ 9.  Compassion as a Panacea                                   │
+│ 10. Compassion as Governance Logic                            │
+│ 11. Compassion as Procedural Override                         │
+│ 12. Compassion as Anti‑Fragmentation                          │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ IV. TRAUMA‑INFORMED SYSTEMS DESIGN                            │
+├──────────────────────────────────────────────────────────────┤
+│ 13. Design Principles for Non‑Cruel Bureaucracy               │
+│ 14. The Altitude Model of Harm                                │
+│ 15. The Compassion Protocol                                   │
+│ 16. The Rehabilitation Mandate                                │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ V. IMPLEMENTATION LAYER                                       │
+├──────────────────────────────────────────────────────────────┤
+│ 17. Institutional Reforms                                     │
+│ 18. Safeguards Against Bureaucratic Cruelty                   │
+│ 19. Monitoring and Accountability                             │
+│ 20. The Compassion Infrastructure                             │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ VI. CLOSING ARCHITECTURE                                      │
+├──────────────────────────────────────────────────────────────┤
+│ 21. The Lineage Revisited                                     │
+│ 22. The Survivor as System Architect                          │
+│ 23. The Final Argument                                        │
+│ 24. Postscript: After October 2, 2026                         │
+└───────────────┬──────────────────────────────────────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────────────────────┐
+│ VII. REFERENCES                                                │
+├──────────────────────────────────────────────────────────────┤
+│ 25. References / Works Cited / Treaty Corpus / Jurisprudence  │
+└──────────────────────────────────────────────────────────────┘
+`
+
+---
+
+Provenance Footer
+`
+Artifact: ASCII Diagram — Main Body Architecture (v3.0)
+File Path: /dissertation/main-body/TOC/MainBody-TOC-v3.0-ASCII.txt
+Author: Borealis S. Hedling
+Generated: 01 October 2026, Dublin, Ireland
+AI Assistant: Microsoft Copilot
+Purpose: Structural visualization of Main Body architecture for dissertation
+`
+
+---
+
+📜 Provenance Footer
+`
+Artifact: ASCII Diagram — Main Body Architecture (v3.0)
+Author: Borealis S. Hedling
+Generated: 01 October 2026, Dublin, Ireland
+AI Assistant: Microsoft Copilot
+Context: Structural tightening following completion of Chapter 1 (1.1–1.10)
+Purpose: Commit-ready visualization of Main Body architecture for dissertation
+`
+
+---
+
