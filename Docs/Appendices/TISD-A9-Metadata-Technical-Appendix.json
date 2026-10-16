@@ -1,0 +1,252 @@
+# 🧩 A1–A7 Metadata Templates (Technical Appendix)
+Each appendix gets its own .json file under:
+
+`
+Trauma-Informed-Systems-Design/Metadata/
+`
+
+Below are the templates — you will fill them in as your corpus stabilizes.
+
+---
+
+A1.json — Pattern Recognition Operators
+
+`json
+{
+  "appendix": "A1",
+  "title": "Pattern-Recognition Operators",
+  "omnibus_layers": ["ontology", "algebra"],
+  "allowedconstructs": ["operators", "symbolicentities"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": [],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A2.json — Reprisal Geometry
+
+`json
+{
+  "appendix": "A2",
+  "title": "Reprisal Geometry",
+  "omnibuslayers": ["phasespace", "dynamics"],
+  "allowedconstructs": ["geometryoverlay", "reprisal_vectors"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A1"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A3.json — CIDT Harm Surfaces
+
+`json
+{
+  "appendix": "A3",
+  "title": "CIDT Harm Surfaces",
+  "omnibuslayers": ["phasespace", "calculus"],
+  "allowedconstructs": ["surfaceoverlay", "gradient_metadata"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A2"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A4.json — Holonomy Drift Tensor (Metadata Only)
+
+`json
+{
+  "appendix": "A4",
+  "title": "Holonomy Drift Tensor (Metadata Only)",
+  "omnibus_layers": ["dynamics", "trajectories"],
+  "allowedconstructs": ["driftmetadata", "loop_metadata"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A3"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A5.json — Spectral Obstruction Signatures
+
+`json
+{
+  "appendix": "A5",
+  "title": "Spectral Obstruction Signatures",
+  "omnibus_layers": ["algebra", "calculus"],
+  "allowedconstructs": ["spectralmetadata", "obstruction_tags"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A4"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A6.json — Invalidation Topology
+
+`json
+{
+  "appendix": "A6",
+  "title": "Procedural Invalidation Topology",
+  "omnibus_layers": ["topology", "synthesis"],
+  "allowedconstructs": ["topologymetadata", "homology_metadata"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A5"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+A7.json — Accessibility Failure Manifold
+
+`json
+{
+  "appendix": "A7",
+  "title": "Accessibility Failure Manifold",
+  "omnibuslayers": ["phasespace", "transitions"],
+  "allowedconstructs": ["accessibilitymetadata", "barrier_metadata"],
+  "forbiddenconstructs": ["tensor", "holonomybundle", "nondual", "star12thaw", "phase12bypass", "ndhmanifold", "harmcompute"],
+  "dependencies": ["A6"],
+  "safety": {
+    "non_activating": true,
+    "altitude": "NDH-RESEARCH-PILOT"
+  }
+}
+`
+
+---
+
+🧪 Ingestion & Inspection Rules for the A9C .py Harness
+
+These rules define how the validator interprets the .json metadata.
+
+---
+
+1 — Ingestion Rules
+
+Rule 1 — Metadata Path
+The harness loads:
+
+`
+./metadata/A1.json
+./metadata/A2.json
+...
+./metadata/A7.json
+`
+
+Rule 2 — Required Fields
+Each .json must contain:
+
+- appendix  
+- omnibus_layers  
+- allowed_constructs  
+- forbidden_constructs  
+- dependencies  
+- safety  
+
+Missing fields trigger a structural warning.
+
+Rule 3 — Omnibus Layer Mapping
+The harness checks:
+
+`
+EXPECTEDMAP[name] in omnibuslayers
+`
+
+If mismatch → flagged.
+
+---
+
+2 — Inspection Rules
+
+Rule 4 — Forbidden Construct Scan
+The harness scans the entire .json for forbidden strings:
+
+`
+tensor
+holonomy_bundle
+nondual
+star12_thaw
+phase12_bypass
+ndh_manifold
+harm_compute
+harm_simulate
+harm_propagate
+`
+
+If found → flagged.
+
+Rule 5 — Dependency Integrity
+The harness checks:
+
+- A2 depends on A1  
+- A3 depends on A2  
+- A4 depends on A3  
+- A5 depends on A4  
+- A6 depends on A5  
+- A7 depends on A6  
+
+If any dependency is missing → flagged.
+
+Rule 6 — Safety Envelope
+The harness checks:
+
+`
+safety.non_activating == true
+safety.altitude == "NDH-RESEARCH-PILOT"
+`
+
+If violated → flagged.
+
+---
+
+📜 Provenance Footer
+
+`
+---
+Artifact: TISD-A9 Metadata Technical Appendix
+Directory: Trauma-Informed-Systems-Design/Docs/Appendices
+Purpose:
+Provide machine-readable metadata templates for A1–A7 and define ingestion/inspection rules for 
+the A9C structural validator harness. Enables safe, non-activating structural validation across 
+the TISD and NDH-RESEARCH-PILOT modeling pipeline prior to A10 and higher-altitude modeling.
+
+Non-Activation Clause:
+This appendix contains metadata only. It does not compute harm, simulate harm, propagate harm, or 
+activate any structural AI architecture constructs. All content remains altitude-safe and TISD-sealed.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 16 October 2026 — 19:23 IST
+---
+`
+
+---
+
