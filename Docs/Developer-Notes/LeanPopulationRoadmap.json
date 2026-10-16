@@ -1,0 +1,110 @@
+{
+  "lean_population_roadmap": {
+    "altitude": "NDH-RESEARCH-PILOT",
+    "non_activating": true,
+
+    "modules": [
+      {
+        "name": "A1_Operators.lean",
+        "appendix": "A1",
+        "metadata": "A1.json",
+        "status": "completed_skeleton",
+        "population_stage": "ready_for_incremental_expansion",
+        "notes": "Foundational operator types; negative safety axioms included."
+      },
+      {
+        "name": "A2_Geometry.lean",
+        "appendix": "A2",
+        "metadata": "A2.json",
+        "status": "pending",
+        "population_stage": "next_in_sequence",
+        "notes": "Define geometry overlay metadata; no harm surfaces."
+      },
+      {
+        "name": "A3_Surfaces.lean",
+        "appendix": "A3",
+        "metadata": "A3.json",
+        "status": "pending",
+        "population_stage": "after_A2",
+        "notes": "Metadata-only surface definitions; no CIDT surface math."
+      },
+      {
+        "name": "A4_Drift.lean",
+        "appendix": "A4",
+        "metadata": "A4.json",
+        "status": "pending",
+        "population_stage": "after_A3",
+        "notes": "Holonomy drift metadata only; no tensors."
+      },
+      {
+        "name": "A5_Spectra.lean",
+        "appendix": "A5",
+        "metadata": "A5.json",
+        "status": "pending",
+        "population_stage": "after_A4",
+        "notes": "Spectral obstruction tags; no spectral harm calculus."
+      },
+      {
+        "name": "A6_Topology.lean",
+        "appendix": "A6",
+        "metadata": "A6.json",
+        "status": "pending",
+        "population_stage": "after_A5",
+        "notes": "Invalidation topology metadata; no harm topology."
+      },
+      {
+        "name": "A7_Accessibility.lean",
+        "appendix": "A7",
+        "metadata": "A7.json",
+        "status": "pending",
+        "population_stage": "after_A6",
+        "notes": "Accessibility manifold metadata; no manifold activation."
+      },
+      {
+        "name": "Omnibus.lean",
+        "appendix": "Omnibus",
+        "metadata": "Omnibus.json",
+        "status": "pending",
+        "population_stage": "after_A7",
+        "notes": "Define Omnibus layer types and sequencing rules."
+      },
+      {
+        "name": "A9C_Formal.lean",
+        "appendix": "A9C",
+        "metadata": "A9C.json",
+        "status": "pending",
+        "population_stage": "final_stage",
+        "notes": "Formal mirror of the Python validator; sequencing + forbidden construct checks."
+      }
+    ],
+
+    "sequencing_rules": {
+      "order": [
+        "A1_Operators.lean",
+        "A2_Geometry.lean",
+        "A3_Surfaces.lean",
+        "A4_Drift.lean",
+        "A5_Spectra.lean",
+        "A6_Topology.lean",
+        "A7_Accessibility.lean",
+        "Omnibus.lean",
+        "A9C_Formal.lean"
+      ],
+      "enforced_by": "LeanHallucinationGuard"
+    },
+
+    "forbidden_constructs": [
+      "tensor",
+      "holonomy_bundle",
+      "nondual",
+      "star12_thaw",
+      "phase12_bypass",
+      "ndh_manifold",
+      "harm_compute",
+      "harm_simulate",
+      "harm_propagate"
+    ],
+
+    "notes": "This roadmap governs Lean module population only. Appendix metadata JSONs remain inside the Technical Appendix and are not replaced."
+  }
+}
