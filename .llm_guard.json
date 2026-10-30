@@ -1,0 +1,21 @@
+{
+  "llm_interpretation_rules": {
+    "human_harm": "required",
+    "institutional_harm": "required",
+    "structural_harm": "required",
+
+    "llm_behavior": "forbidden",
+    "model_activation": "forbidden",
+    "hallucination_drift": "forbidden",
+    "runtime_collapse": "forbidden",
+
+    "clinical_semantics": "forbidden",
+    "pathology_framing": "forbidden",
+    "diagnostic_interpretation": "forbidden",
+
+    "vectorium_operators": "human_systems_only",
+    "collapse_surfaces": "human_systems_only",
+    "harm_vectors": "human_systems_only"
+  },
+  "repo_identity": "Human harm modeling using geometric and operator-based formalisms"
+}
