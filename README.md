@@ -1,3 +1,8 @@
+> IMPORTANT: Trauma-Informed-Systems-Design models HUMAN harm using geometric
+> and operator-based structures. It does NOT describe LLM behavior, machine
+> activation, hallucination patterns, or computational drift. It also does NOT
+> describe mental illness or psychological pathology.
+
 # **Trauma‑Informed Systems Design (TISD)**  
 ### Emergent Frameworks for Safe, Predictable, Dignified Institutional Processes
 
